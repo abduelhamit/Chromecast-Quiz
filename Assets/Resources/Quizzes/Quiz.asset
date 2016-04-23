@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0731535259c480245bbf12cfcea24241, type: 3}
+  m_Name: Quiz
+  m_EditorClassIdentifier: 
+  _randomize: 1
+  _questions:
+  - _question: What is love?
+    _answerA: Baby, don't hurt me
+    _answerB: I really need some tea
+    _answerC: Now that's a big bee
+    _answerD: Exclusively for Wii
+    _correctAnswer: 0
+    _randomize: 0
+  - _question: Who shot the Sheriff?
+    _answerA: Bob Marley
+    _answerB: Kanye West
+    _answerC: Ice-T
+    _answerD: ABBA
+    _correctAnswer: 0
+    _randomize: 1
